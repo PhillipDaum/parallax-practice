@@ -13,12 +13,53 @@ p {
 }
 
 .hero1 {
-  background-image: url(https://images.pexels.com/photos/6985045/pexels-photo-6985045.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
-  background-size: auto;
+  background-image: url(../img/1.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.contain1 {
-    background-image: url("https://images.pexels.com/photos/6985045/pexels-photo-6985045.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
-    background-size: cover;
-  }
+.hero2 {
+  background-image: url(../img/2.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero3 {
+  background-image: url(../img/3.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero4 {
+  background-image: url(../img/4.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
