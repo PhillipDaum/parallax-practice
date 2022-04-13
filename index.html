@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Cool Website Thingy Stuff Yes</title>
+  <title>parallax example</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -51,47 +51,66 @@
   </nav>
 
   <!-- first tile --> 
-  <div class="container-fluid hero1 vh-100 align-items-center d-flex opacity-75 justify-content-center">
+  <div class="container-fluid hero1 justify-content-center d-flex opacity-75">
+    <div class="row align-items-center vh-100">
       <h1 class="display-1 fw-bold">Cursive is hard to read.</h1>
+    </div>
   </div>
 
   <!-- second tile --> 
-  <div id="tile2" class="container-fluid hero2 vh-100 align-items-center d-flex opacity-75 justify-content-center">
-    <div class="p-5 col-sm-10 col-lg-8 text-center bg-dark opacity-75">
-      <h2 class="fw-bold text-white">ROBOTS RULE</h2>
-      <p class="text-white">Bender is one example of a robot who I love, but he doesn't follow Asimov's laws</p>
-      <button class="btn btn-warning btn-lg" type="button">Futurama</button>
+  <div id="tile2" class="container-fluid">
+
+    <div class="row hero2 opacity-75 justify-content-center align-items-center vh-100">
+      <div class="col">
+        <div class="container text-center bg-dark opacity-75">
+          <h2 class="fw-bold text-white p-4">ROBOTS RULE</h2>
+          <p class="text-white mb-4">Bender is one example of a robot who I love, but he doesn't follow Asimov's laws</p>
+          <button class="btn btn-warning btn-lg mb-5" type="button">Futurama</button>
+        </div>
+      </div>
     </div>
+
   </div>
    
  <!-- third tile --> 
- <div id="tile3" class="container-fluid hero3 vh-100 align-items-center d-flex opacity-75 justify-content-center">
-    <div class="p-5 col-sm-10 col-lg-8 text-center bg-dark opacity-75">
-      <h2 class="fw-bold text-white">HUMANS RULE</h2>
-      <p class="text-white">Bender says that he wants to kill all humans, but I don't think he really does.</p>
-      <button class="btn btn-warning btn-lg" type="button">Push me</button>
+  <div id="tile3" class="container-fluid">
+   <div class="row hero3 opacity-75 justify-content-center align-items-center vh-100">
+      <div class="col">
+        <div class="container text-center bg-dark opacity-75">
+          <h2 class="fw-bold text-white p-4">HUMANS RULE</h2>
+          <p class="text-white mb-4">Bender says that he wants to kill all humans, but I don't think he really does.</p>
+          <button class="btn btn-warning btn-lg mb-5" type="button">Push me</button>
+        </div>
+      </div>
     </div>
   </div>
 
  <!-- fourth tile --> 
  <div id="tile4" class="container-fluid hero4 vh-100 align-items-center d-flex opacity-75 justify-content-center">
-    <div class="p-5 col-sm-10 col-lg-8 text-center bg-dark opacity-75">
-      <h2 class="fw-bold text-white">This also is an important thing</h2>
-      <p class="text-white">I am writing sentences. The last time I had to write cursive by hand was when I took the SAT. It was the hardest part.</p>
-      <button class="btn btn-warning btn-lg" type="button">click</button>
+    <div class="row hero opacity-75 justify-content-center align-items-center vh-100">
+      <div class="col">
+        <div class="container text-center bg-dark opacity-75">
+          <h2 class="fw-bold text-white p-4">This also is an important thing</h2>
+          <p class="text-white mb-4">I am writing sentences. The last time I had to write cursive by hand was when I took the SAT. It was the hardest part.</p>
+          <button class="btn btn-warning btn-lg mb-5" type="button">click</button>
+        </div>
+      </div>
     </div>
   </div>
 
   <!-- FOOTER -->
   <div class="container-fluid bg-warning vh-50 align-items-center d-flex opacity-75 justify-content-center">
-    <div class="p-5 col-sm-10 col-lg-8 text-center opacity-100">
-      <h2 class="fw-bold text-white">Please do not contact me.</h2>
-      <div class="p-2">
-        <i class="fa-brands fs-1 p-2 text-white fa-reddit-alien"></i>
-        <i class="fa-brands fs-1 p-2 text-white fa-reddit-alien"></i>
-        <i class="fa-brands fs-1 p-2 text-white fa-reddit-alien"></i>
+    <div class="row">
+      <div class="col text-center p-5 opacity-100">
+        <h2 class="fw-bold text-info">Please do not contact me.</h2>
+          <div class="p-2">
+            <i class="fa-brands fs-1 p-2 text-danger fa-reddit-alien"></i>
+            <i class="fa-brands fs-1 p-2 text-white fa-reddit-alien"></i>
+            <i class="fa-brands fs-1 p-2 text-primary fa-reddit-alien"></i>
+          </div>
+
+        <p class="text-info fw-bold">Am I done yet?</p>
       </div>
-      <p class="text-white">Am I done yet?</p>
     </div>
   </div>
 
